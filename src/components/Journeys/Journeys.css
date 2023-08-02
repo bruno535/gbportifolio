@@ -1,0 +1,158 @@
+/* Journeys Section */
+.journeysContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.journeysContainer .journeys {
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    background-size: cover;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.journeysContainer .journeys:hover {
+    box-shadow: 10px 10px #007bff;
+}
+
+.journeysContainer .journeys p {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.journeysContainer .journeys:hover p {
+    color: #007bff;
+    background-color: #ffffff;
+}
+
+.journeysContainer .back {
+    position: absolute;
+    top: 3em;
+    margin: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #007bff;
+    padding: 15px 25px;
+    border: none;
+
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.journeysContainer .back:hover {
+    color: #007bff;
+    background-color: #ffffff;
+}
+
+.journeysContainer .egito {
+    background-image: url('https://elquarto.com/blog/wp-content/uploads/2023/01/Capital-do-Egito.jpg');
+}
+
+.journeysContainer .china {
+    background-image: url('https://static.preparaenem.com/2022/11/vista-aerea-da-cidade-de-wuhan-na-china.jpg');
+}
+
+.journeysContainer .mexico {
+    background-image: url('https://jpimg.com.br/uploads/2017/08/metropolitan-cathedral-zocalo-mexico-city.jpg');
+}
+
+
+/* Journey Page */
+.journeyPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6em;
+}
+
+.journeyPage a.linkRight,
+.journeyPage a.linkLeft {
+    position: fixed;
+    top: 10vh;
+    margin: 20px;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #007bff;
+    padding: 15px 25px;
+    border: none;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.journeyPage a.linkRight {
+    right: 0;
+}
+
+.journeyPage a.linkLeft {
+    left: 0;
+}
+
+.journeyPage a:hover {
+    color: #007bff;
+    background-color: #ffffff;
+}
+
+.journeyPage .back {
+    position: fixed;
+    top: 5vh;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #007bff;
+    padding: 15px 25px;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.journeyPage .back:hover{
+    background-color: #fff;
+}
+
+.journeyPage .back a {
+    color: #fff;
+}
+
+.journeyPage .back:hover a{
+    color: #007bff;
+}
+
+.journeyPage h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #ffffff;
+}
+
+.journeyPage .textContent {
+    width: 75vw;
+    padding: 25px 50px;
+    margin: auto;
+}
+
+.journeyPage .textContent h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.journeyPage .textContent p {
+    margin: 10px 0;
+    line-height: 1.6em;
+    font-weight: normal;
+}

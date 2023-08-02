@@ -1,0 +1,130 @@
+/* Global Styles */
+:root {
+    --parallax-height: 25vh;
+    --parallax-height-large: 70vh;
+    --parallax-duration: 0.6s;
+}
+
+.parallax {
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 0.6s ease-in-out;
+}
+
+.parallaxHome {
+    background-image: url('../imgs/1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.parallaxEgito1 {
+    background-image: url('https://classic.exame.com/wp-content/uploads/2022/11/GettyImages-97942874.jpg?quality=70&strip=info&w=1024');
+}
+
+.parallaxEgito2 {
+    background-image: url('https://s2.glbimg.com/zDPReQaU7NB2l8MrJFED9dnkLCc=/e.glbimg.com/og/ed/f/original/2018/08/01/egypt-84492_960_720.jpg');
+}
+
+.parallaxEgito3 {
+    background-image: url('https://www.pacotesparaegito.com/images/wikis/1670767658wikis.jpg');
+}
+
+.parallaxEgito4 {
+    background-image: url('https://www.pacotesparaegito.com/images/wikis/1670762295wikis.jpg');
+}
+
+.parallaxEgito5 {
+    background-image: url('https://images.memphistours.com/large/a49c23c8c550071dc8d746f6df1e335a.jpg');
+}
+
+.parallaxEgito6 {
+    background-image: url('https://images.memphistours.com/large/625197967_Templo%20de%20Philae%20(2).jpg');
+}
+
+.parallaxEgito7 {
+    background-image: url('https://img.freepik.com/fotos-premium/abu-simbel-esculpiu-o-grande-templo-de-ramses-ii-egito_400112-951.jpg?w=2000');
+}
+
+.parallaxEgito8 {
+    background-image: url('https://elquarto.com/blog/wp-content/uploads/2023/01/Capital-do-Egito.jpg');
+}
+
+/* China */
+.parallaxChina1 {
+    background-image: url('https://i0.wp.com/blogandarilho.com.br/wp-content/uploads/2017/12/pequim-Cidade-Proibida-1.jpg?fit=800%2C437&ssl=1');
+}
+
+.parallaxChina2 {
+    background-image: url('https://www.detectahotel.com.br/rimg/dimg/c0/5f/829da036-city-35600-17ea25befc5.jpg?width=1366&height=768&xhint=1689&yhint=992&crop=true');
+}
+
+.parallaxChina3 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1_zhangjiajie_huangshizhai_wulingyuan_panorama_2012.jpg/640px-1_zhangjiajie_huangshizhai_wulingyuan_panorama_2012.jpg');
+}
+
+.parallaxChina4 {
+    background-image: url('https://www.china-briefing.com/news/wp-content/uploads/2021/06/What-Makes-Chengdu-a-Top-Investment-Destination-in-Southwest-China.jpg');
+}
+
+.parallaxChina5 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6f/The_Great_Wall_of_China_at_Jinshanling.jpg');
+}
+
+.parallaxChina6 {
+    background-image: url('https://4.bp.blogspot.com/-vUe-slFemLw/T5lIIz1FJLI/AAAAAAAAVV8/vsQMyKdZtrE/s1600/Rio_li_Guilin.jpg');
+}
+
+.parallaxChina7 {
+    background-image: url('https://www.infoescola.com/wp-content/uploads/2020/08/hong-kong_693729124.jpg');
+}
+
+.parallaxChina8 {
+    background-image: url('https://cdn.britannica.com/32/123332-050-F6718344/Potala-Palace-Lhasa-China-Tibet-Autonomous-Region.jpg');
+}
+
+.parallaxChina9 {
+    background-image: url('https://static.preparaenem.com/2022/11/vista-aerea-da-cidade-de-wuhan-na-china.jpg');
+}
+
+/* mexico */
+.parallaxMexico1 {
+    background-image: url('https://www.melhoresdestinos.com.br/wp-content/uploads/2021/05/cidade-do-mexico-capa.jpg');
+}
+
+.parallaxMexico2 {
+    background-image: url('https://cdn.britannica.com/02/147902-050-BA146002/Pyramid-of-the-Sun-city-Mexico-Teotihuacan.jpg');
+}
+
+.parallaxMexico3 {
+    background-image: url('https://fr.globalvoices.org/wp-content/uploads/2016/12/Santiago_Ap%C3%B3stol_Oaxaca-800x420.jpg');
+}
+
+.parallaxMexico4 {
+    background-image: url('https://vidanamala.com.br/wp-content/uploads/2019/08/IMG_20190809_192336_844.jpg');
+}
+
+.parallaxMexico5 {
+    background-image: url('https://a.travel-assets.com/findyours-php/viewfinder/images/res70/331000/331384-Yucatan.jpg');
+}
+
+.parallaxMexico6 {
+    background-image: url('https://res.cloudinary.com/simpleview/image/upload/v1579105656/clients/quintanaroo/RivieraMaya_00356ac8-fdd4-4eb9-be8e-55ec41be1097.jpg');
+}
+
+.parallaxMexico7 {
+    background-image: url('https://jpimg.com.br/uploads/2017/08/metropolitan-cathedral-zocalo-mexico-city.jpg');
+}
+
+/* Media Queries */
+@media screen and (min-width: 769px) {
+    .parallax {
+        height: 70vh;
+        background-attachment: fixed;
+    }
+}

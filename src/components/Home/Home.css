@@ -1,0 +1,96 @@
+/* Home Page */
+.homePage h1 {
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+    color: #007bff;
+}
+
+.homePage .textContent {
+    width: 75vw;
+    padding: 25px 50px;
+    margin: auto;
+}
+
+.homePage .textContent p {
+    margin: 10px 0;
+    line-height: 1.6em;
+    font-weight: normal;
+}
+
+.homePage .textContent h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.homePage .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.homePage .gallery a {
+    font-size: 18px;
+    color: #007bff;
+    text-align: center;
+    padding: 20px 30px;
+
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+.homePage .gallery a:hover {
+    color: #ffffff;
+    background-color: #007bff;
+    transform: scale(1.04);
+}
+
+.homePage .textLeft,
+.homePage .textRight {
+    display: flex;
+    border-bottom: 1.5px solid #007bff;
+}
+
+.homePage .textRight {
+    flex-direction: row-reverse;
+}
+
+.homePage .textLeft h3,
+.homePage .textRight h3 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    color: #007bff;
+}
+
+.homePage .textLeft div,
+.homePage .textRight div {
+    width: 50%;
+    padding: 30px;
+}
+
+.homePage .textLeft p,
+.homePage .textRight p {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.homePage .more {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.homePage .more:hover {
+    background-color: #ffffff;
+    color: #007bff;
+}

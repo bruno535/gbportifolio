@@ -1,0 +1,104 @@
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background-color: white;
+        padding: 10px 0;
+    }
+
+    .menuShow {
+        display: block;
+    }
+
+    .menuShow li {
+        padding: 5px 20px;
+    }
+
+    .menuShow li a {
+        color: blue;
+        padding: 10px;
+        display: flex;
+        font-size: 18px;
+    }
+
+    .menuShow li svg {
+        margin-right: 5px;
+    }
+
+    .homePage .textContent {
+        padding: 0;
+    }
+
+    .journeysContainer .journeys p {
+        background-color: white;
+        color: black;
+    }
+
+    .homePage h1 {
+        font-size: 25px;
+    }
+
+    .homePage .textContent {
+        width: 85%;
+    }
+
+    .homePage .textContent h2 {
+        font-size: 20px;
+    }
+
+    .homePage .textContent .textLeft,
+    .homePage .textContent .textRight {
+        display: block;
+    }
+
+    .homePage .textContent .textLeft h3,
+    .homePage .textContent .textRight h3 {
+        width: 100%;
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+    .homePage .textContent .textLeft div,
+    .homePage .textContent .textRight div {
+        width: 100%;
+    }
+
+    .homePage .textContent .textLeft div a,
+    .homePage .textContent .textRight div a {
+        display: block;
+        text-align: center;
+    }
+
+    .journeysContainer .back {
+        top: 2em;
+        position: fixed;
+    }
+
+    .journeyPage a.linkRight,
+    .journeyPage a.linkLeft {
+        padding: 15px 0;
+        margin: 0;
+        box-shadow: none;
+        width: 50px;
+    }
+
+    .journeyPage .textContent {
+        width: 100%;
+    }
+
+    .modal img {
+        width: 100%;
+    }
+
+    .contact-container {
+        border: none;
+    }
+}
