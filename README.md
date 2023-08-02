@@ -1,2 +1,2 @@
 
-<a href="https://gbportifolio.vercel.app/">Link for view</a>
+<a href="https://gbportifolio.vercel.app/">Link to see</a>
